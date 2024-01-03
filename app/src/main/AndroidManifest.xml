@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="7708213031_Rafif Pratama"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LoginRegisterRelative"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".tablayout"
+            android:exported="false" />
+        <activity
+            android:name=".bottomsheet"
+            android:exported="false" />
+        <activity
+            android:name=".titanium"
+            android:exported="false" />
+        <activity
+            android:name=".shockbreaker"
+            android:exported="false" />
+        <activity
+            android:name=".knalpot"
+            android:exported="false" />
+        <activity
+            android:name=".damper"
+            android:exported="false" />
+        <activity
+            android:name=".billed"
+            android:exported="false" />
+        <activity
+            android:name=".ListView"
+            android:exported="false" />
+        <activity
+            android:name=".Kritik"
+            android:exported="false" />
+        <activity
+            android:name=".Part"
+            android:exported="false" />
+        <activity
+            android:name=".About"
+            android:exported="false" />
+        <activity
+            android:name=".Menu3"
+            android:exported="false" />
+        <activity
+            android:name=".Menu2"
+            android:exported="false" />
+        <activity
+            android:name=".Menu"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Registeractivity"
+            android:exported="false" />
+        <activity
+            android:name=".Profileactivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

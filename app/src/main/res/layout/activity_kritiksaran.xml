@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:text="Kritik saran"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/poppinsbold"
+        android:id="@+id/tiket">
+    </TextView>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/ktp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/gaskeun">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:src="@drawable/couple"
+        android:layout_marginTop="70dp"
+        android:paddingLeft="60dp">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kritik dan Saran"
+        android:textSize="17dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/SecondaryColor"
+        android:layout_marginTop="80dp"
+        android:paddingLeft="120dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_back"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="17dp">
+
+    </ImageView>
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="550dp"
+        android:src="@drawable/cardviewtiket"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/oke"
+        >
+
+    </ImageView>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gaskeun"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        android:id="@+id/linear1">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama "
+            android:paddingLeft="50dp"
+            android:fontFamily="@font/poppinsregular">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="49dp">
+
+        </EditText>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linear1"
+        android:layout_marginTop="10dp">
+
+    </LinearLayout>
+
+</RelativeLayout>
